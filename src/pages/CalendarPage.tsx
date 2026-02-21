@@ -21,7 +21,8 @@ export function CalendarPage() {
       {/* FAB */}
       <button
         onClick={() => openForm()}
-        className="fixed bottom-20 right-4 w-14 h-14 rounded-full bg-primary hover:bg-primary-dark text-white shadow-lg flex items-center justify-center transition-all hover:scale-105 active:scale-95 z-40"
+        className="fixed right-4 w-14 h-14 rounded-full bg-primary hover:bg-primary-dark text-white shadow-lg flex items-center justify-center transition-all hover:scale-105 active:scale-95 z-40"
+        style={{ bottom: 'calc(4.5rem + env(safe-area-inset-bottom, 0))' }}
       >
         <Plus className="w-6 h-6" />
       </button>

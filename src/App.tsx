@@ -24,7 +24,7 @@ export default function App() {
 
   return (
     <HashRouter>
-      <div className="min-h-screen flex flex-col pb-16">
+      <div className="min-h-screen flex flex-col" style={{ paddingBottom: 'calc(4rem + env(safe-area-inset-bottom, 0))' }}>
         <Header />
         <main className="flex-1 max-w-lg mx-auto w-full">
           <Suspense fallback={<LoadingFallback />}>
