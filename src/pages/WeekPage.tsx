@@ -36,8 +36,7 @@ export function WeekPage() {
 
   const weekEnd = endOfWeek(currentWeekStart, { weekStartsOn: 1 });
   const days = eachDayOfInterval({ start: currentWeekStart, end: weekEnd });
-  // Show Mon-Fri by default (5 days), optionally Sat-Sun
-  const weekDays = days.slice(0, 5);
+  const weekDays = days;
 
   const tasks = useLiveQuery(async () => {
     return db.tasks
@@ -105,7 +104,7 @@ export function WeekPage() {
       </div>
 
       {/* Untimed tasks row */}
-      <div className="grid grid-cols-[2.5rem_repeat(5,1fr)] gap-px mb-1">
+      <div className="grid grid-cols-[2.5rem_repeat(7,1fr)] gap-px mb-1">
         <div className="text-[10px] text-gray-400 text-center py-1"></div>
         {weekDays.map((day) => {
           const untimedTasks = getUntimed(day);
@@ -121,7 +120,7 @@ export function WeekPage() {
 
       {/* Week Grid */}
       <div className="overflow-x-auto">
-        <div className="grid grid-cols-[2.5rem_repeat(5,1fr)] gap-px min-w-0">
+        <div className="grid grid-cols-[2.5rem_repeat(7,1fr)] gap-px min-w-0">
           {/* Day headers */}
           <div />
           {weekDays.map((day) => (
