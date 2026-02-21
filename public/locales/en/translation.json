@@ -6,7 +6,8 @@
   "nav": {
     "dashboard": "Home",
     "tasks": "Tasks",
-    "calendar": "Calendar",
+    "week": "Week",
+    "calendar": "Month",
     "settings": "More"
   },
   "dashboard": {

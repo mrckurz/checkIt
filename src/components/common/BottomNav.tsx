@@ -1,10 +1,11 @@
 import { NavLink } from 'react-router-dom';
-import { LayoutDashboard, ListTodo, Calendar, Menu } from 'lucide-react';
+import { LayoutDashboard, ListTodo, CalendarRange, Calendar, Menu } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 const tabs = [
   { path: '/', icon: LayoutDashboard, labelKey: 'nav.dashboard' },
   { path: '/tasks', icon: ListTodo, labelKey: 'nav.tasks' },
+  { path: '/week', icon: CalendarRange, labelKey: 'nav.week' },
   { path: '/calendar', icon: Calendar, labelKey: 'nav.calendar' },
   { path: '/settings', icon: Menu, labelKey: 'nav.settings' },
 ] as const;
