@@ -1,0 +1,132 @@
+{
+  "app": {
+    "title": "CheckIt!",
+    "subtitle": "Your digital school planner"
+  },
+  "nav": {
+    "dashboard": "Home",
+    "tasks": "Tasks",
+    "calendar": "Calendar",
+    "settings": "More"
+  },
+  "dashboard": {
+    "greeting": "Hello!",
+    "today": "Today is {{date}}",
+    "open": "Open",
+    "overdue": "Overdue",
+    "doneToday": "Done",
+    "overdueSection": "Overdue",
+    "todaySection": "Due today",
+    "upcomingSection": "Next 7 days",
+    "allDone": "All done!",
+    "noTasks": "No tasks yet. Tap + to get started!"
+  },
+  "category": {
+    "homework": "Homework",
+    "study": "Study",
+    "test": "Test",
+    "household": "Household",
+    "other": "Other",
+    "all": "All"
+  },
+  "priority": {
+    "high": "High",
+    "medium": "Medium",
+    "low": "Low",
+    "all": "All"
+  },
+  "status": {
+    "open": "Open",
+    "in_progress": "In Progress",
+    "done": "Done",
+    "all": "All"
+  },
+  "task": {
+    "title": "Title",
+    "titlePlaceholder": "What needs to be done?",
+    "description": "Description",
+    "descriptionPlaceholder": "Additional details...",
+    "category": "Category",
+    "priority": "Priority",
+    "status": "Status",
+    "subject": "Subject",
+    "subjectPlaceholder": "e.g. Mathematics",
+    "dueDate": "Due date",
+    "dueTime": "Time",
+    "reminder": "Reminder",
+    "reminderNone": "None",
+    "reminder15": "15 min before",
+    "reminder30": "30 min before",
+    "reminder60": "1 hour before",
+    "reminder1440": "1 day before",
+    "create": "Create",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "confirmDelete": "Really delete this task?",
+    "overdue": "Overdue",
+    "dueToday": "Due today",
+    "dueTomorrow": "Due tomorrow",
+    "newTask": "New task"
+  },
+  "calendar": {
+    "today": "Today",
+    "mon": "Mon",
+    "tue": "Tue",
+    "wed": "Wed",
+    "thu": "Thu",
+    "fri": "Fri",
+    "sat": "Sat",
+    "sun": "Sun",
+    "noTasks": "No tasks on this day"
+  },
+  "settings": {
+    "title": "Settings",
+    "notifications": "Notifications",
+    "notificationsDesc": "Reminders for due tasks",
+    "notificationsGranted": "Enabled",
+    "notificationsDenied": "Blocked by browser",
+    "defaultCategory": "Default category",
+    "defaultPriority": "Default priority",
+    "theme": "Theme",
+    "language": "Language",
+    "dangerZone": "Danger zone",
+    "deleteAll": "Delete all data",
+    "deleteAllConfirm": "Do you really want to delete all tasks permanently?",
+    "deleted": "All data deleted",
+    "about": "About CheckIt!",
+    "version": "Version {{version}}",
+    "github": "Source code on GitHub",
+    "impressum": "Legal notice"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "impressum": {
+    "title": "Legal Notice",
+    "legalTitle": "Information according to § 5 ECG / Disclosure according to § 25 MedienG",
+    "owner": "FH-Prof. DI Dr. Marc Kurz",
+    "ownerDetail": "IT Consulting & Software Architecture",
+    "contact": "Contact",
+    "email": "marc.kurz@fh-hagenberg.at",
+    "disclosureTitle": "Disclosure according to § 25 MedienG",
+    "disclosureText": "Media owner: FH-Prof. DI Dr. Marc Kurz. Basic direction: Information about the digital school planner CheckIt! and its usage.",
+    "liabilityTitle": "Disclaimer",
+    "liabilityText": "Despite careful content control, no liability is assumed for the content of external links. The operators of the linked pages are solely responsible for their content.",
+    "copyrightTitle": "Copyright",
+    "copyrightText": "All content on this site (texts, images, code examples) is subject to copyright. Use without express permission is not permitted.",
+    "odrTitle": "Online Dispute Resolution",
+    "odrText": "EU Commission platform for online dispute resolution:",
+    "odrLink": "https://ec.europa.eu/consumers/odr"
+  },
+  "common": {
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "yes": "Yes",
+    "no": "No",
+    "close": "Close"
+  }
+}

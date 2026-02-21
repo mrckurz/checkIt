@@ -1,0 +1,132 @@
+{
+  "app": {
+    "title": "CheckIt!",
+    "subtitle": "Dein digitaler Schulplaner"
+  },
+  "nav": {
+    "dashboard": "Start",
+    "tasks": "Aufgaben",
+    "calendar": "Kalender",
+    "settings": "Mehr"
+  },
+  "dashboard": {
+    "greeting": "Hallo!",
+    "today": "Heute ist {{date}}",
+    "open": "Offen",
+    "overdue": "Überfällig",
+    "doneToday": "Erledigt",
+    "overdueSection": "Überfällig",
+    "todaySection": "Heute fällig",
+    "upcomingSection": "Nächste 7 Tage",
+    "allDone": "Alles erledigt!",
+    "noTasks": "Noch keine Aufgaben. Tippe auf + um loszulegen!"
+  },
+  "category": {
+    "homework": "Hausübung",
+    "study": "Lernen",
+    "test": "Test",
+    "household": "Haushalt",
+    "other": "Sonstiges",
+    "all": "Alle"
+  },
+  "priority": {
+    "high": "Hoch",
+    "medium": "Mittel",
+    "low": "Niedrig",
+    "all": "Alle"
+  },
+  "status": {
+    "open": "Offen",
+    "in_progress": "In Arbeit",
+    "done": "Erledigt",
+    "all": "Alle"
+  },
+  "task": {
+    "title": "Titel",
+    "titlePlaceholder": "Was ist zu tun?",
+    "description": "Beschreibung",
+    "descriptionPlaceholder": "Zusätzliche Details...",
+    "category": "Kategorie",
+    "priority": "Priorität",
+    "status": "Status",
+    "subject": "Fach",
+    "subjectPlaceholder": "z.B. Mathematik",
+    "dueDate": "Fällig am",
+    "dueTime": "Uhrzeit",
+    "reminder": "Erinnerung",
+    "reminderNone": "Keine",
+    "reminder15": "15 Min vorher",
+    "reminder30": "30 Min vorher",
+    "reminder60": "1 Stunde vorher",
+    "reminder1440": "1 Tag vorher",
+    "create": "Erstellen",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "confirmDelete": "Aufgabe wirklich löschen?",
+    "overdue": "Überfällig",
+    "dueToday": "Heute fällig",
+    "dueTomorrow": "Morgen fällig",
+    "newTask": "Neue Aufgabe"
+  },
+  "calendar": {
+    "today": "Heute",
+    "mon": "Mo",
+    "tue": "Di",
+    "wed": "Mi",
+    "thu": "Do",
+    "fri": "Fr",
+    "sat": "Sa",
+    "sun": "So",
+    "noTasks": "Keine Aufgaben an diesem Tag"
+  },
+  "settings": {
+    "title": "Einstellungen",
+    "notifications": "Benachrichtigungen",
+    "notificationsDesc": "Erinnerungen für fällige Aufgaben",
+    "notificationsGranted": "Aktiviert",
+    "notificationsDenied": "Vom Browser blockiert",
+    "defaultCategory": "Standard-Kategorie",
+    "defaultPriority": "Standard-Priorität",
+    "theme": "Design",
+    "language": "Sprache",
+    "dangerZone": "Gefahrenbereich",
+    "deleteAll": "Alle Daten löschen",
+    "deleteAllConfirm": "Willst du wirklich alle Aufgaben unwiderruflich löschen?",
+    "deleted": "Alle Daten gelöscht",
+    "about": "Über CheckIt!",
+    "version": "Version {{version}}",
+    "github": "Quellcode auf GitHub",
+    "impressum": "Impressum"
+  },
+  "theme": {
+    "light": "Hell",
+    "dark": "Dunkel",
+    "system": "System"
+  },
+  "impressum": {
+    "title": "Impressum",
+    "legalTitle": "Angaben gemäß § 5 ECG / Offenlegung laut § 25 MedienG",
+    "owner": "FH-Prof. DI Dr. Marc Kurz",
+    "ownerDetail": "IT-Consulting & Softwarearchitektur",
+    "contact": "Kontakt",
+    "email": "marc.kurz@fh-hagenberg.at",
+    "disclosureTitle": "Offenlegung gemäß § 25 MedienG",
+    "disclosureText": "Medieninhaber: FH-Prof. DI Dr. Marc Kurz. Grundlegende Richtung: Information über den digitalen Schulplaner CheckIt! und dessen Nutzung.",
+    "liabilityTitle": "Haftungsausschluss",
+    "liabilityText": "Trotz sorgfältiger inhaltlicher Kontrolle wird keine Haftung für die Inhalte externer Links übernommen. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.",
+    "copyrightTitle": "Urheberrecht",
+    "copyrightText": "Alle Inhalte dieser Seite (Texte, Bilder, Codebeispiele) unterliegen dem Urheberrecht. Eine Verwendung ohne ausdrückliche Genehmigung ist nicht gestattet.",
+    "odrTitle": "Online-Streitbeilegung",
+    "odrText": "Plattform der EU-Kommission zur Online-Streitbeilegung:",
+    "odrLink": "https://ec.europa.eu/consumers/odr"
+  },
+  "common": {
+    "confirm": "Bestätigen",
+    "cancel": "Abbrechen",
+    "yes": "Ja",
+    "no": "Nein",
+    "close": "Schließen"
+  }
+}
